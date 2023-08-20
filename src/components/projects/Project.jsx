@@ -2,6 +2,7 @@ import React from 'react';
 import IMG1 from '../../assets/p1.jpeg';
 import IMG2 from '../../assets/p2.png';
 import IMG3 from '../../assets/p3.jpeg';
+import IMG4 from '../../assets/p4.webp';
 import './Project.css';
 
 const Project = () => {
@@ -27,7 +28,15 @@ const Project = () => {
       title: 'Credit Card Service Landing Page',
       github: 'https://github.com/harinish986/Banking',
       demo: 'https://paywave-0228.netlify.app/'
+    },
+    {
+      id: 4,
+      image: IMG4,
+      title: 'Crypto Currency Tracker',
+      github: 'https://github.com/harinish986/Crypto-Price-Tracker',
+      demo: 'https://crypto-price-tracker-0228.netlify.app/'
     }
+
   ]
 
   return (
